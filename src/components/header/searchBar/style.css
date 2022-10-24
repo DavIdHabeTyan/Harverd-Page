@@ -1,6 +1,7 @@
 .topnav {
     overflow: hidden;
     background-color: #e9e9e9;
+    height: 50px;
 }
 
 .topnav a {
@@ -30,6 +31,8 @@
     margin-right: 16px;
     border: none;
     font-size: 17px;
+    width: 450px;
+
 }
 
 @media screen and (max-width: 600px) {

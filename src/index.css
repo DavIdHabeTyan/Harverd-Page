@@ -1,1 +1,49 @@
 
+.galleryItem{
+    height: 200px;
+    width: auto;
+    max-width: 400px;
+}
+
+.divisions{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.division{
+    padding: 8px;
+    border: 1px solid #104c49;
+    border-radius: 4px;
+    margin: 15px;
+}
+
+
+.listWrapper{
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.paginationWrapper{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+.paginationWrapper > button{
+    padding: 0 10px;
+    height: 25px;
+}
+
+.active {
+    background-color: green;
+    border: none;
+}

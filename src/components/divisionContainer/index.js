@@ -3,7 +3,7 @@ import GalleryDivision from "../main/galaryDivision";
 
 function DivisionContainer({records}) {
    return (
-      <div>
+      <div className={"listWrapper"}>
          {records.map(({
                           id,
                           images,
@@ -14,6 +14,7 @@ function DivisionContainer({records}) {
                           verificationleveldescription
                        }) =>
             <GalleryDivision
+               key={id}
                {...{
                   id,
                   images,
@@ -22,7 +23,8 @@ function DivisionContainer({records}) {
                   creditline,
                   totaluniquepageviews,
                   verificationleveldescription
-               }}/>
+               }}
+            />
          )}
 
       </div>
